@@ -4,6 +4,12 @@ Coder Academy T3A1 Full Stack App (Part B) assessment
 
 Created by Tyler Hall and Katrina Marquez 
 
+# Links
+
+**Deployed site** - [GreenTree Tracker](https://www.greentree-tracker.netlify.app "Greentree Tracker Wesbite")
+
+**Github Repository** - [Github Repo](https://github.com/Impicklerick12/T3A2-PartB "Greentree Tracker Github Repo")
+
 ### Purpose 
 
 Greentree Tracker is an inventory and order management solution designed for small to medium wholesale nursery businesses. 
@@ -204,6 +210,10 @@ Guests are able to click on a specific plant they are interested in and view mor
 
 *d. Guest is prompted to create a customer account*
 - Greentree Tracker requires users who want to purchase plants to create an account.
+
+### Challenges and difficulties
+
+
 ### Wireframes 
 
 #### **Home**
@@ -248,19 +258,8 @@ Guests are able to click on a specific plant they are interested in and view mor
 
 ### Screenshots
 
-Trello was used as the project management for T3A2 Full Stack App (Part A). 
+Trello was used as the project management for T3A2 Full Stack App (Part B). 
 
-*Monday, 23 November 2020*
-![Trello 23 Nov 2020](Resources/trello-board-23112020.png)
+![Trello Completed](Resources/trello-completed.png)
 
-*Tuesday, 24 November 2020*
-![Trello 24 Nov 2020](Resources/trello-board-24112020.png)
-
-*Wednesday, 25 November 2020*
-![Trello 24 Nov 2020](Resources/trello-board-25112020.png)
-
-*Friday, 27 November 2020*
-![Trello 27 Nov 2020](Resources/trello-board-27112020.png)
-
-*Tuesday, 8 December 2020*
-![Trello 8 December 2020](Resources/trello-board-8122020.png)
+The [link](https://trello.com/invite/b/9ovwXYVo/3b5219abfe1174fd8931be22d79f55be/greetree-tracker-app-development "Link to Trello Task Management") to our Trello task management.
