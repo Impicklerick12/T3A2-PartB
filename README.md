@@ -8,7 +8,7 @@ Created by Tyler Hall and Katrina Marquez
 
 **Deployed site (Front End)** - [GreenTree Tracker Front End](https://www.greentree-tracker.netlify.app "Greentree Tracker Wesbite")
 
-**Github Repository (Front End)** - [Github Repo Front End](https://github.com/Impicklerick12/T3A2-PartB "Greentree Tracker Github Repo")
+**Github Repository (Front End)** - [Github Repo Front End](https://github.com/Impicklerick12/greentree-tracker-FE "Greentree Tracker Github Repo")
 
 **Deployed site (Back End)** - [GreenTree Tracker Back End](https://limitless-springs-78183.herokuapp.com/ "Greentree Tracker Wesbite Back End")
 
