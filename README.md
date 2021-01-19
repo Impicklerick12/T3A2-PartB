@@ -213,6 +213,27 @@ Guests are able to click on a specific plant they are interested in and view mor
 
 ### Challenges and difficulties
 
+While building the Greentree Tracker web application, we were exposing ourselves to many new technologies that we had not utilised before. This provided numerous challenges, requiring us to research new solutions and dive deep into documentation for best-practices. These include:
+
+- **AWS S3 Bucket Config**
+
+We set up our image upload through React on the frontend, making the call to the AWS bucket on submit of our new plant form. This presented some challenged when setting it up, first configuring and storing the AWS access data, making the request through a npm S3 package, and finally retrieving the returned url of our saved image to save in our database. Our main challenge was presenting in the form of a CORS header error, which was needed to be overcome through customization of our S3 bucket settings.
+
+- **Express Session Cookie for sameSite** 
+
+Our biggest challenge by far was solving an error we were having in our production environment, after our application had been deployed. We deployed our backend on Heroku, and our frontend on Netlify, meaning both were being hosted on different domains causing an issue with browser cookies being sent to third-party sites. The browser now requiring a sameSite attribute of 'none' was a recent change, affecting Chrome, Brave and Safari just to name a few, this was causing our api calls from the frontend to the server returning a 403 error (unauthorised). The issue was obviously a concerning one, as it prevented alot of our functions and api calls relying on user authentication to fail. We were finally able to solve the issue after consultation with several educators at Coder Academy, who were able to assist us in locating the issue and what needed adjusting. Our server express-session configuaration now needed to include: 
+
+```js
+app.enable('trust proxy');
+app.use(express.session({
+    proxy: true,
+    cookie: {
+        secure: true,
+        sameSite: 'none',
+        httpOnly: false
+    }
+}));
+```
 
 ### Wireframes 
 
